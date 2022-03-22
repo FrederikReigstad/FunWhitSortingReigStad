@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/FunWhitSortingReigStad.iml" filepath="$PROJECT_DIR$/.idea/FunWhitSortingReigStad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scrMovies/scrMovies.iml" filepath="$PROJECT_DIR$/scrMovies/scrMovies.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/src.iml" filepath="$PROJECT_DIR$/src/src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/src1.iml" filepath="$PROJECT_DIR$/src/src1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/srcMovie.iml" filepath="$PROJECT_DIR$/src/srcMovie.iml" />
     </modules>
   </component>
 </project>
