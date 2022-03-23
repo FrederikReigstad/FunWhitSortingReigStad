@@ -43,7 +43,6 @@ public class Main {
         };
 
 
-
         Collections.sort(cars, byTopSpeed);
 
 
@@ -51,9 +50,6 @@ public class Main {
 
         for (Car c : cars)
             System.out.println(c);
-
-
-
 
 
     }

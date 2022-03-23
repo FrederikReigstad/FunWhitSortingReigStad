@@ -6,14 +6,14 @@ public class Main {
     public static void main(String[] args) {
         //TODo code appliction
 
-        Movies movies1 = new Movies(31, "Scary Movie", "Keenen Ivory Wayans", "Horror",2000, 8.2);
-        Movies movies2 = new Movies(52, "Scary Movie 2", "Keenen Ivory Wayans", "Horror",2001, 8.9);
-        Movies movies3 = new Movies(333, "Scary Movie 3", "David Zucker", "Horror",2003, 8.6);
-        Movies movies4 = new Movies(534, "Scary Movie 4", "David Zucker", "Horror",2006, 8.1);
-        Movies movies5 = new Movies(725, "Scary Movie 5", "Malcolm D. Lee", "Horror",2013, 8.7);
-        Movies movies6 = new Movies(12, "Die Hard", "John McTiernan", "Action",1988, 10.0);
-        Movies movies7 = new Movies(21, "Die Hard 2 Die Harder", "Renny Harlin", "Action",1990, 9.5);
-        Movies movies8 = new Movies(28, "Die Hard Mega Hard", "John McTiernan", "Action",1995, 9.8);
+        Movies movies1 = new Movies(31, "Scary Movie", "Keenen Ivory Wayans", "Horror", 2000, 8.2);
+        Movies movies2 = new Movies(52, "Scary Movie 2", "Keenen Ivory Wayans", "Horror", 2001, 8.9);
+        Movies movies3 = new Movies(333, "Scary Movie 3", "David Zucker", "Horror", 2003, 8.6);
+        Movies movies4 = new Movies(534, "Scary Movie 4", "David Zucker", "Horror", 2006, 8.1);
+        Movies movies5 = new Movies(725, "Scary Movie 5", "Malcolm D. Lee", "Horror", 2013, 8.7);
+        Movies movies6 = new Movies(12, "Die Hard", "John McTiernan", "Action", 1988, 10.0);
+        Movies movies7 = new Movies(21, "Die Hard 2 Die Harder", "Renny Harlin", "Action", 1990, 9.5);
+        Movies movies8 = new Movies(28, "Die Hard Mega Hard", "John McTiernan", "Action", 1995, 9.8);
 
         ArrayList<Movies> movies = new ArrayList<>();
 
@@ -51,8 +51,6 @@ public class Main {
         };*/
 
 
-
-
         Collections.sort(movies, byTitle);
 
 
@@ -60,9 +58,6 @@ public class Main {
 
         for (Movies c : movies)
             System.out.println(c);
-
-
-
 
 
     }
