@@ -40,18 +40,22 @@ public class Main {
         //java - Lambda Expression
         Comparator<Movies> byDirector = (Movies movie1, Movies movie2) -> movie1.getDirector().compareTo(movie2.getDirector());
         Comparator<Movies> byGenre = (Movies movie1, Movies movie2) -> movie1.getGenre().compareTo(movie2.getGenre());
-        Comparator<Movies> byTitle = (Movies movie1, Movies movie2) -> movie1.getTitle().compareTo(movie2.getTitle());
+        Comparator<Movies> byTitle = (Movies movie1, Movies movie2) ->      movie1.getTitle().compareTo(movie2.getTitle());
         Comparator<Movies> byid = (Movies movie1, Movies movie2) -> {
-            return movie1.getId() - movie1.getId();
+            return movie1.getId() - movie2.getId();
         };
 
 
-       /* Comparator<Movies> byRating = (Movies movie1, Movies movie2) -> {
-            //return movie1.getRating() - movie1.getRating();
-        };*/
+        Comparator<Movies> byRating = (Movies movie1, Movies movie2) -> {
+            if (movie1.getRating() < movie2.getRating())
+                return 1;
+            else if (movie1.getRating() > movie2.getRating())
+                return -1;
+            else return 0;
+        };
 
 
-        Collections.sort(movies, byTitle);
+        Collections.sort(movies, byid);
 
 
         System.out.println("After sort....");
